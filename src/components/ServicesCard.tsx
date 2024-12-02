@@ -8,7 +8,7 @@ function ServicesCard() {
     <>
    {serviceData.map((items, index) => {
     return(
-        <div className="max-w-xs mx-auto bg-[#F7F7F7] shadow-lg rounded-lg overflow-hidden">
+        <div className="max-w-xs mx-auto bg-[#F7F7F7] shadow-lg rounded-lg overflow-hidden" key={index}>
     
         <div className="relative h-48">
           <Image
